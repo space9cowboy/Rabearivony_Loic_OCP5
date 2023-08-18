@@ -1,0 +1,49 @@
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Nina Carducci - Photographe professionelle",
+    "description": "Photographe professionelle",
+    "image": [
+        "https://github.com/space9cowboy/Rabearivony_Loic_OCP5/blob/main/assets/images/nina.webp",
+      "https://github.com/space9cowboy/Rabearivony_Loic_OCP5/blob/main/assets/images/camera.webp",
+      "https://github.com/space9cowboy/Rabearivony_Loic_OCP5/blob/main/assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp",
+      "https://github.com/space9cowboy/Rabearivony_Loic_OCP5/blob/main/assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp",
+      "https://github.com/space9cowboy/Rabearivony_Loic_OCP5/blob/main/assets/images/gallery/mariage/jakob-owens-siniljkxhmc-unsplash.webp",
+      "https://github.com/space9cowboy/Rabearivony_Loic_OCP5/blob/main/assets/images/gallery/portraits/ade-tunji-rvkhwwzfatq-unsplash.webp"
+      
+     ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "68 avenue Alsace-Lorraine",
+      "addressLocality": "Bordeaux",
+      "postalCode": "33200",
+      "addressCountry": {
+      "@type": "Country",
+      "name": "France"
+      }
+    
+  
+    },
+    "url": "https://github.com/space9cowboy/Rabearivony_Loic_OCP5",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+33 05 56 67 78 89"
+    },
+    "openingHoursSpecification": [
+      {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "19:00"
+      }
+    ],
+    "priceRange" : "50€ 400€",
+    "sameAs": "https://www.instagram.com/ninacarducci.photo/"
+    
+}
