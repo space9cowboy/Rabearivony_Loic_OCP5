@@ -4,7 +4,7 @@ body {
 }
 
 * {
-    font-family: 'Inter';
+    font-family: Inter;
     font-style: normal
 }
 
@@ -21,7 +21,13 @@ body {
 }
 
 .top-header .name {
-    font-size: 26px
+    font-size: 26px;
+    cursor: pointer;
+    color: initial;
+}
+
+.top-header a {
+    text-decoration: none;
 }
 
 .nav ul {
@@ -46,7 +52,7 @@ body {
 
 #about {
     display: flex;
-    background-color: #F6D2B8;
+    background-color: #f6d2b8;
     padding-inline: 100px;
     padding-block: 100px;
     position: relative
@@ -54,7 +60,7 @@ body {
 
 .picture.left::before {
     content: ' ';
-    background-color: #E5975F;
+    background-color: #e5975f;
     width: 374px;
     height: 329px;
     position: absolute;
@@ -84,7 +90,7 @@ body {
 }
 
 .about-me__introduction {
-    font-family: 'Spectral';
+    font-family: Spectral;
     font-weight: 800;
     font-style: italic;
     width: 60%
@@ -140,11 +146,11 @@ body {
     padding: .5em
 }
 
-.mg-prev,
-.mg-next {
+.mg-next,
+.mg-prev {
     width: 30px;
     height: 30px;
-    border-radius: 0%;
+    border-radius: 00%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -152,7 +158,7 @@ body {
 }
 
 .quote {
-    font-family: 'Spectral';
+    font-family: Spectral;
     font-style: italic;
     width: 70%;
     margin: auto;
@@ -173,13 +179,13 @@ body {
 
 #services {
     margin: auto;
-    background-color: #A8D5D8;
+    background-color: #a8d5d8;
     position: relative
 }
 
 #services .container::before {
     content: ' ';
-    background-color: #1C6474;
+    background-color: #1c6474;
     position: absolute;
     width: 100%;
     height: 30%;
@@ -208,7 +214,7 @@ body {
 
 #contact {
     margin: auto;
-    background-color: #D8D3A8;
+    background-color: #d8d3a8;
     position: relative;
     padding-inline: 100px;
     padding-block: 100px
@@ -220,7 +226,7 @@ body {
 
 .picture.right::before {
     content: ' ';
-    background-color: #BEB45A;
+    background-color: #beb45a;
     width: 374px;
     height: 329px;
     position: absolute;
@@ -258,8 +264,8 @@ form textarea {
     margin-bottom: 20px
 }
 
-input[type="submit"] {
-    background-color: #BEB45A;
+input[type=submit] {
+    background-color: #beb45a;
     padding: .5em 1em
 }
 
@@ -359,7 +365,7 @@ input[type="submit"] {
     .top-header .nav,
     .top-header .nav ul {
         width: 100%;
-        padding: 0 0 0 0
+        padding: 0
     }
 
     .top-header .nav li {

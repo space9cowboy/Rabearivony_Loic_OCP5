@@ -22,6 +22,12 @@ body {
 
 .top-header .name {
 	font-size: 26px;
+	cursor: pointer;
+	color: initial;
+}
+
+.top-header a {
+	text-decoration: none;
 }
 
 .nav ul {
